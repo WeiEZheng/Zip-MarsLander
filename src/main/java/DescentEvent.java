@@ -16,7 +16,7 @@ public class DescentEvent {
     public int getVelocity() {
         return this.Velocity;
     }
-
+    public int getFuel(){return this.Fuel;}
     public int getAltitude() {
         return this.Altitude;
     }
