@@ -67,6 +67,7 @@ public class Simulation {
         }
         printString(vehicle.checkFinalStatus());
         if (status != null) {
+            status = vehicle.getStatus(0);
             return status.getStatus();
         }
         return -1;
